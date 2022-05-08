@@ -1,2 +1,2 @@
-# milestone_anniversaries.
+# Milestone anniversaries
 Programming Assessment
