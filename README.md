@@ -4,18 +4,15 @@
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `milestone_anniversaries` to your list of dependencies in `mix.exs`:
+Run `asdf install` to install the correct version of Erlang and Elixir (if you use it as a package manager)
+Run `mix deps.get`
 
-```elixir
-def deps do
-  [
-    {:milestone_anniversaries, "~> 0.1.0"}
-  ]
-end
-```
+You can run the program in 2 ways:
+  - By running the executable script `./shipping_validate`
+  - By running with iex
+    ```elixir
+    iex -S mix
+    iex> MilestoneAnniversaries.direct_report("employee_data.csv", "10/01/2015")
+    ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/milestone_anniversaries>.
 
